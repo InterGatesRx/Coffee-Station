@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 2409px;
+    height: auto;
     overflow-y: scroll;
 }
 .Cabeçalho {
@@ -34,6 +34,10 @@ nav {
 .navigation a {
     text-decoration: none;
     color: inherit;
+}
+.navigation a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 .navigation {
     display: inline;
@@ -76,6 +80,10 @@ main h2 {
     border: 2px solid #000000;
     border-radius: 8px;
 }
+.list li:hover {
+    border-color: #a18262;
+    color: #a18262;
+}
 .list h3 {
     font-size: 40px;
     font-weight: bold;
@@ -88,4 +96,49 @@ main h2 {
 .list p {
     font-size: 18px;
     margin: 15px 0px;
+}
+.Sobre {
+    text-align: center;
+    font-family: monospace;
+    width: 940px;
+    margin: 50px auto;
+    border: #000000 solid 2px;
+    border-radius: 8px;
+    padding: 40px 20px;
+}
+.Sobre h4 {
+    font-size: 40px;
+}
+.Sobre p {
+    font-size: 18px;
+}
+footer {
+    background:#a18262;
+}
+.coffeecup {
+    width: 190px;
+    display: inline-block;
+}
+.Copyright {
+    position: relative;
+}
+.linkfoot a {
+    font-size: 30px;
+    color: inherit;
+    text-decoration: none;
+    font-family: monospace;
+    text-align: center;
+}
+.divlinkfoot {
+    text-align: center;
+    display: inline-block;
+    width: 1470px;
+    margin: 0 auto;
+}
+.linkfoot:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.linkfoot {
+    padding: 10px;
 }
